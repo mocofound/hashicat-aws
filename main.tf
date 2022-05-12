@@ -65,7 +65,7 @@ resource "aws_security_group" "hashicat" {
   }
 
   tags = {
-    Name = "${var.prefix}-security-group"
+    Name = "${var.prefix}-security-group-2"
   }
 }
 
